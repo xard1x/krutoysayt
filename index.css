@@ -34,8 +34,7 @@ p {
 .a-b{
     font-family: 'Courier New', Courier, monospace ;
     margin: 20px 800px 20px 800px;
-    box-sizing: border-box;
-    text-align: center;
+    box-sizing: border-box; 
 }
 img {
     margin:0 800px 20px 800px;
@@ -56,5 +55,4 @@ button {
 }
 a {
     color: aliceblue;
-    text-align: center;
 }
