@@ -12,14 +12,18 @@ if (result === 'да'){
     maladec = maladec - 1
 }
 function da() {
-    alert('маладец, он тот еще пидар')
-    document.getElementById('vop').innerHTML= 'сигма'
+    document.getElementById('vop').innerHTML= 'правильно, он тот еще пидар'
     maladec = maladec + 1
-    console.log(maladec)
 }
 function net() {
-    alert('ты что долбоеб написано же что он пидар')
-    document.getElementById('vop').innerHTML= 'да ты сам пидар сто проц'
+    document.getElementById('vop').innerHTML= 'ты что долбоеб написано же что он пидар'
     maladec = maladec - 1
-    console.log(maladec)
+}
+function da1() {
+        document.getElementById('vop1').innerHTML= 'красава'
+        maladec = maladec + 1
+}
+function net1() {
+    document.getElementById('vop1').innerHTML= 'я тебя запомнил'
+    maladec = maladec - 1
 }
