@@ -27,8 +27,17 @@ function net1() {
     document.getElementById('vop1').innerHTML= 'я тебя запомнил';
     maladec = maladec - 1;
 }
-function dark1() {
-    console.log('asdsadsadsa')
-    const dar = document.querySelector('body')
-    dar.style.backgroundColor = 'black';
+function dar1(){
+     el = document.querySelector('body')
+     el.style.background = 'black'
+     el.style.color = 'white'
+}
+function whi1(){
+    el = document.querySelector('body')
+    el.style.background = 'white'
+    el.style.color = 'black'
+    fo = document.getElementById('fon')
+    fo.style.color = 'black'
+    fo1 = document.getElementById('fon1')
+    fo1.style.color = 'black'
 }
