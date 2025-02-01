@@ -9,3 +9,14 @@ body {
 .input {
     margin: 90px 0 0 600px;
 }
+button {
+    height: 30px;
+    width: 80px;
+    color: white;
+    background-color: #ff006a;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s
+}
