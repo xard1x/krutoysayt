@@ -17,7 +17,7 @@ h2 {
     box-sizing: border-box;
     }
 #a2 {
-    margin: 10px;
+    margin: 0 0px 0 10px;
     box-sizing: border-box;
 }
 p {
@@ -63,6 +63,7 @@ a {
 }
 #a4 {
     box-sizing: border-box;
+    margin: 0 -765px 0 800px;
 }
 #a5 {
     width: 170px;
