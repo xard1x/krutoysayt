@@ -40,8 +40,8 @@ function dr() {
     const p3 = document.getElementById('in3').value
     const p32 = document.getElementById('in32')
     const b3 = document.getElementById('b3')
-    if (p3 === '2012-09-14') {
-        p32.innerHTML = 'ебат ты владка чтоле'
+    if (p3 === '2010-05-28') {
+        p32.innerHTML = 'ты меня чтоле копируешь'
         plus()
         console.log(maladec)
     } else {
@@ -59,8 +59,8 @@ function col(){
     const p42 = document.getElementById('in42')
     const p4o = document.getElementById('in4')
     const b4 = document.getElementById('b4')
-    if (p4 === '#00ffff') {
-        p42.innerHTML = 'ой ты прям как владка'
+    if (p4 === '#000000' || p4 === '#ffffff') {
+        p42.innerHTML = 'ты крутой'
         plus()
         console.log(maladec)
     }
@@ -137,4 +137,16 @@ function kod(){
     } else {
         alert('нету такого кода')
     }
+}
+function dar1(){
+    el = document.querySelector('body')
+    el.style.background = 'black'
+    el.style.color = 'white'
+    
+    
+}
+function whi1(){
+   el = document.querySelector('body')
+   el.style.background = 'white'
+   el.style.color = 'black'
 }

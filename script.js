@@ -1,7 +1,7 @@
 let maladec = 0;
 const b = 'кто прочитал тот какашка';
 console.log(b);
-let result = prompt('ты пидор?');
+let result = prompt('ты любишь собачек?');
 if (result === 'да'){
     alert('ты маладец');
     maladec = maladec + 1;
@@ -12,31 +12,31 @@ if (result === 'да'){
     maladec = maladec - 1;
 }
 function da() {
-    document.getElementById('vop').innerHTML= 'правильно, он тот еще пидар';
+    document.getElementById('vop').innerHTML= 'правильно, их все любят';
     maladec = maladec + 1;
     const d3 = document.getElementById('a1')
     const d4 = document.getElementById('a2')
     d3.remove()
     d4.remove()
     if (maladec >= 3) {
-        alert('ты сигма крипер прям - вот твой код 159')
+        alert('ты крутой прям - вот твой код 159')
     } else if (maladec === 2) {
-        alert('давай подожми я верю чтоты будешь сигма крипером - вот твой код 145')
+        alert('давай подожми я верю чтоты будешь крутым - вот твой код 145')
     } else {
         alert('капиц ты лох - вот твой код 123')
     }
 }
 function net() {
-    document.getElementById('vop').innerHTML= 'ты что долбоеб написано же что он пидар';
+    document.getElementById('vop').innerHTML= 'ты что тупой, написано же что ты их любишь';
     maladec = maladec - 1;
     const d3 = document.getElementById('a1')
     const d4 = document.getElementById('a2')
     d4.remove()
     d3.remove()
     if (maladec >= 3) {
-        alert('ты сигма крипер прям - вот твой код 159')
+        alert('ты крутой прям - вот твой код 159')
     } else if (maladec === 2) {
-        alert('давай подожми я верю чтоты будешь сигма крипером - вот твой код 145')
+        alert('давай подожми я верю чтоты будешь крутым - вот твой код 145')
     } else {
         alert('капиц ты лох - вот твой код 123')
     }
