@@ -28,7 +28,6 @@ function da() {
 }
 function net() {
     document.getElementById('vop').innerHTML= 'ты что тупой, написано же что ты их любишь';
-    maladec = maladec - 1;
     const d3 = document.getElementById('a1')
     const d4 = document.getElementById('a2')
     d4.remove()
@@ -51,7 +50,6 @@ function da1() {
 }
 function net1() {
     document.getElementById('vop1').innerHTML= 'я тебя запомнил';
-    maladec = maladec - 1;
     const d2 = document.getElementById('a4')
     const d1 = document.getElementById('a3')
     d2.remove()
