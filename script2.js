@@ -141,12 +141,13 @@ function kod(){
 function dar1(){
     el = document.querySelector('body')
     el.style.background = 'black'
-    el.style.color = 'white'
-    
-    
+    el.style.color = 'white'   
 }
 function whi1(){
    el = document.querySelector('body')
    el.style.background = 'white'
    el.style.color = 'black'
+}
+function kod1() {
+    alert(maladec + ' твой код')
 }
