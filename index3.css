@@ -1,27 +1,32 @@
-DIV {  /* начало кода с градиентом */
-    width: 50%;
-    max-width: 500px;
-    height: 200px;
-    background: linear-gradient(crimson, gold, yellowgreen, teal, crimson);
-    background-position: 0 0;
-    border-radius: 30px;
-    border: 10px solid white;
-    animation: background 2s infinite alternate;
-  }
-  
-  @keyframes background {
-    100% {
-      background-position: 0 200px;
-    }
-  }
-  
-  /* Helpers */
-  BODY {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #EEE;
-    font-size: 16px;
-  }  /* конец кода с градиентом */
+div { /* настройка рамки и ее внутриностей */
+  margin-left: 700px;
+  margin-right: 700px;
+  border: solid rgb(175, 140, 98) 5px;
+  background-color:bisque;
+  border-radius: 10px;
+}
+#title1 { 
+  margin-left: 200px;
+  color: fuchsia;
+}
+#span1 {
+  color: aqua;
+}
+#span2 {
+  color: rgb(0, 60, 255);
+}
+#span3 {
+  color: rgb(255, 0, 200);
+}
+#span4 {
+  color: rgb(255, 0, 0);
+}
+#span5 {
+  color: rgb(255, 145, 0);
+}
+#span6 {
+  color: rgb(255, 251, 0);
+}
+#span7 {
+  color: rgb(115, 255, 0);
+}
