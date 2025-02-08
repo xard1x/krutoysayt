@@ -37,7 +37,7 @@ div { /* настройка рамки и ее внутриностей */
   background: linear-gradient(crimson, gold, yellowgreen, teal, crimson);
   background-position: 0 0;
   border-radius: 30px;
-  border: 10px solid white;
+  border: 10px solid rgb(255, 251, 0);
   animation: background 2s infinite alternate;
 }
 @keyframes background {
@@ -52,4 +52,18 @@ div { /* настройка рамки и ее внутриностей */
   justify-content: center;
   align-items: center;
   font-size: 16px;
+}
+#title2 {
+  margin-top: 30px;
+  display: inline;
+}
+#in1 {
+  display: inline;
+  margin-left: 10px;
+  margin-top: 30px;
+}
+#button1 {
+  display: inline;
+  margin-left: 10px;
+  margin-top: 30px;
 }

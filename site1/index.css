@@ -1,0 +1,74 @@
+body {
+    margin: 0;   /* */
+    padding: 0;
+}
+body {
+    background: linear-gradient(170deg, rgb(44, 44, 44) , rgb(165, 165, 165) ); /* градиент фон*/
+}
+h2 {
+    width: 400px; /*изменение ширины */
+    margin:  10px  800px 0 800px; /*рамещение обьекта */
+    background-color: blue; /*цвет фона */
+    color: aliceblue; /* цвет текста*/
+    box-sizing: border-box;
+    }
+#a1 {
+    margin: 0 0px 0 800px;
+    box-sizing: border-box;
+    }
+#a2 {
+    margin: 0 0px 0 10px;
+    box-sizing: border-box;
+}
+p {
+    width: 730px;
+    font-size: 120px; /* размер*/
+    font-family: 'Courier New', Courier, monospace ; /*установка шрифта */
+    font-weight: bold; 
+    border: solid 10px red;  /* создание обводки */
+    border-radius: 30px;  /*закругление */
+    border-style: dashed; /*штрих обводка */
+    margin: -200px 0px 100px 0px;
+    box-sizing: border-box; 
+}
+.a-b{
+    font-family: 'Courier New', Courier, monospace ;
+    margin: 20px 800px 20px 800px;
+    box-sizing: border-box; 
+    font-family: "Press Start 2P", serif;
+}
+img {
+    margin:0 800px 20px 800px;
+    border-radius:  200px;
+    box-sizing: border-box;
+    border: solid pink 10px;
+}
+button {
+    height: 30px;
+    width: 70px;
+    color: white;
+    background-color: #ff4500;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;  /*выбор какой курсор будет при наводке */
+    text-decoration: none; /*это свойство, которое позволяет добавить декоративные линии к тексту */
+    transition: background-color 0.3s   /*что то типо плавного перехода*/
+}
+a {
+    color: aliceblue;
+}
+#a3 {
+    margin: 0 -765px 0 800px;
+    box-sizing: border-box;
+}
+#a4 {
+    box-sizing: border-box;
+    margin: 0 -765px 0 800px;
+}
+#a5 {
+    width: 170px;
+    height: 80px;
+    font-size: 50px;
+    box-sizing: border-box;
+    margin: -600px 0px 0px 1200px;    
+}
