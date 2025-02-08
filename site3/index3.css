@@ -1,3 +1,6 @@
+body {
+  font-size: 100%;
+}
 div { /* настройка рамки и ее внутриностей */
   margin-left: 700px;
   margin-right: 700px;
