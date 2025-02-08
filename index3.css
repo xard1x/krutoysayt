@@ -70,3 +70,11 @@ div { /* настройка рамки и ее внутриностей */
   margin-left: 10px;
   margin-top: 30px;
 }
+img {
+  padding-left: 500px;
+  float: left;
+}
+#str {
+  clear: left;
+  padding-left: 480px;
+}
