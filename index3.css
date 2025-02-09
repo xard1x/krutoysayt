@@ -1,7 +1,4 @@
-body {
-  font-size: 100%;
-}
-div { /* настройка рамки и ее внутриностей */
+#div { /* настройка рамки и ее внутриностей */
   margin-left: 700px;
   margin-right: 700px;
   border: solid rgb(175, 140, 98) 5px;

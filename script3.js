@@ -4,3 +4,7 @@ function list1() { // добавление в список по кнопке и 
     newitem.textContent = val
     document.querySelector('#ulList').appendChild(newitem)
 }
+function a() {
+    const a1 = document.getElementsByName('drone').value
+    console.log(a1)
+}

@@ -8,14 +8,14 @@
 </head>
 <body>
     <script src = "script3.js"></script>
-    <div>  <!-- создание рамки-->
+    <div id="div">  <!-- создание рамки-->
         <h3 id="title1">фывфывфыв</h3>
         <p><span id="span1">фывфывфывфыв</span> <span id="span2">фывфыв</span><span id="span3">фывфывфывфывфыв</span>
         <span id="span4">фывфывыфвфывыфвфыв</span> <br>
         <span id="span5">фывфывыфвфывыфвфыв</span> <span id="span6">фывфывыфвфывыфвфыв</span> <span id="span7">фывфывыфвфы</span>
         </p>
     </div>
-    <div class="gr"></div>
+    <div class="gr"></div> <!-- градиент-->
     <h3 id="title2">дополни список</h3>
     <input type="text" id="in1">
     <button id="button1" onclick="list1()">потвердить</button>
@@ -44,5 +44,19 @@
     aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa <br>
 </strong>
 <strong id="str">bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</strong>
+<legend>выбери</legend>
+  <div>
+    <input type="radio" id="a1" name="drone" value="1" checked />
+    <label for="a1">1</label>
+  </div>
+  <div>
+    <input type="radio" id="a2" name="drone" value="2" />
+    <label for="a2">2</label>
+  </div>
+  <div>
+    <input type="radio" id="a3" name="drone" value="3" />
+    <label for="a3">3</label>
+  </div>
+<button id="button" onclick="a()">подтвердить</button>
 </body>
 </html>
