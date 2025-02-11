@@ -75,3 +75,21 @@ img {
   clear: left;
   padding-left: 480px;
 }
+#p {
+  padding-left: 500px;
+}
+.em1 {
+  position: relative;
+  top: 10px;
+}
+.em2 {
+  position: relative;
+  bottom: 10px;
+}
+#img {
+  padding-left: 500px;
+  z-index: 1;
+  color: blue;
+  position: relative;
+  top: 50px;
+}
