@@ -6,4 +6,6 @@ function list1() { // добавление в список по кнопке и 
 }
 function a() {
     console.log('asdasd')
+    const a = document.getElementById('a1').value
+    console.log(a)
 }
