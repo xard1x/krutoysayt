@@ -9,3 +9,11 @@ function a() {
     const a = document.getElementById('a1').value
     console.log(a)
 }
+for(let i = 0; i !== 20; i++) {
+    console.log(i)
+}
+let av = 'a'
+while (av !== 'aaaaaa'){
+    console.log(av)
+    av += 'a'
+}
