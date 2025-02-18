@@ -17,3 +17,8 @@ while (av !== 'aaaaaa'){
     console.log(av)
     av += 'a'
 }
+function str(){
+    console.log('asdasd')
+    let a = document.querySelectorAll('box')
+    a.style.flexDirection = 'row'
+}
