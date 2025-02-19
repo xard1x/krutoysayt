@@ -18,7 +18,18 @@ while (av !== 'aaaaaa'){
     av += 'a'
 }
 function str(){
-    console.log('asdasd')
-    let a = document.querySelectorAll('box')
+    let a = document.getElementById('box')
     a.style.flexDirection = 'row'
+}
+function restr(){
+    let a = document.getElementById('box')
+    a.style.flexDirection = 'row-reverse'
+}
+function recll(){
+    let a = document.getElementById('box')
+    a.style.flexDirection = 'column'
+}
+function recl(){
+    let a = document.getElementById('box')
+    a.style.flexDirection = 'column-reverse'
 }

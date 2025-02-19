@@ -115,3 +115,27 @@ img {
   display: flex;
   flex-direction: column;
 }
+.boxs1{
+  padding-top: 50px;
+  border: solid 5px red;
+  display: flex;
+  flex-direction: row;
+}
+.boxs2{
+  padding-top: 50px;
+  border: solid 5px yellow;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.boxs3{
+  padding-top: 50px;
+  border: solid 5px rgb(9, 255, 0);
+  display: flex;
+  flex-direction: column;
+}
+.boxs4{
+  padding-top: 50px;
+  border: solid 5px rgb(38, 0, 255);
+  display: flex;
+  flex-direction: column-reverse;
+}
