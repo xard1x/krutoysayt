@@ -116,31 +116,11 @@ img {
   flex-direction: column;
   padding-top: 0;
   height: 500px;
-}
-.boxs1{
-  padding-top: 50px;
-  border: solid 5px red;
-  display: flex;
-  flex-direction: row;
-}
-.boxs2{
-  padding-top: 50px;
-  border: solid 5px yellow;
-  display: flex;
-  flex-direction: row-reverse;
-}
-.boxs3{
-  padding-top: 50px;
-  border: solid 5px rgb(9, 255, 0);
-  display: flex;
-  flex-direction: column;
-}
-.boxs4{
-  padding-top: 50px;
-  border: solid 5px rgb(38, 0, 255);
-  display: flex;
-  flex-direction: column-reverse;
+  border: solid 1px blue;
 }
 div{
   width: 500px;
+}
+h3{
+  border: solid 2px orange;
 }

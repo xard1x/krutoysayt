@@ -17,9 +17,10 @@ while (av !== 'aaaaaa'){
     console.log(av)
     av += 'a'
 }
-function str(){
+function str1(){
     let a = document.getElementById('box')
     a.style.flexDirection = 'row'
+    console.log(1)
 }
 function restr(){
     let a = document.getElementById('box')
@@ -45,10 +46,6 @@ function center(){
     let a = document.getElementById('box')
     a.style.justifyContent = 'center'
 }
-function center(){
-    let a = document.getElementById('box')
-    a.style.justifyContent = 'center'
-}
 function around(){
     let a = document.getElementById('box')
     a.style.justifyContent = 'space-around'
@@ -56,4 +53,20 @@ function around(){
 function between(){
     let a = document.getElementById('box')
     a.style.justifyContent = 'space-between'
+}
+function str(){
+    let a = document.getElementById('box')
+    a.style.alignItems = 'strech'
+}
+function fstart(){
+    let a = document.getElementById('box')
+    a.style.alignItems = 'flex-start'
+}
+function fend(){
+    let a = document.getElementById('box')
+    a.style.alignItems = 'flex-end'
+}
+function fcenter(){
+    let a = document.getElementById('box')
+    a.style.alignItems = 'center'
 }
