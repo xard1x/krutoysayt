@@ -33,3 +33,11 @@ function recl(){
     let a = document.getElementById('box')
     a.style.flexDirection = 'column-reverse'
 }
+function start(){
+    let a = document.getElementById('box')
+    a.style.justifyContent = 'flex-start'
+}
+function end(){
+    let a = document.getElementById('box')
+    a.style.justifyContent = 'flex-end'
+}
