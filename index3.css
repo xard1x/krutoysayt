@@ -115,6 +115,7 @@ img {
   display: flex;
   flex-direction: column;
   padding-top: 0;
+  height: 500px;
 }
 .boxs1{
   padding-top: 50px;

@@ -41,3 +41,19 @@ function end(){
     let a = document.getElementById('box')
     a.style.justifyContent = 'flex-end'
 }
+function center(){
+    let a = document.getElementById('box')
+    a.style.justifyContent = 'center'
+}
+function center(){
+    let a = document.getElementById('box')
+    a.style.justifyContent = 'center'
+}
+function around(){
+    let a = document.getElementById('box')
+    a.style.justifyContent = 'space-around'
+}
+function between(){
+    let a = document.getElementById('box')
+    a.style.justifyContent = 'space-between'
+}
