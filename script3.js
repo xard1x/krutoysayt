@@ -54,9 +54,9 @@ function between(){
     let a = document.getElementById('box')
     a.style.justifyContent = 'space-between'
 }
-function str(){
+function stre(){
     let a = document.getElementById('box')
-    a.style.alignItems = 'strech'
+    a.style.alignItems = 'stretch'
 }
 function fstart(){
     let a = document.getElementById('box')
